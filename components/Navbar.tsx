@@ -21,9 +21,16 @@ const Navbar = () => {
         <Button
         type="button"
         title="Get Quote"
-        icon="/arrow-right.svg"
+        icon=""
         variant="btn_dark_red" />
       </div>
+      <Image
+        src="/menu.svg"
+        alt="menu"
+        width={24}
+        height={24}
+        className='inline-block cursor-pointer lg:hidden'
+      />
     </nav>
   )
 }
