@@ -44,11 +44,11 @@ const BurgerMenu: React.FC = () => {
             )}
         </div>
         {isOpen && (
-            <ul className='absolute right-0 mt-2 w-[90vw] m-1 bg-white border border-gray-200 rounded-md shadow-lg'>
+            <ul className='absolute right-0 mt-2 w-[90vw] m-1 bg-white border border-gray-200 rounded-md shadow-lg ease-in transition-all duration-300'>
                 {NAV_LINKS.map((link) => (
                 <Link href={link.href}
                 key={link.key}
-                className='text-3xl flexCenter uppercase  px-4 py-2 text-gray-800 hover:font-bold transition duration-150'
+                className='text-3xl flexCenter uppercase  px-4 py-2 text-gray-800 hover:font-bold transition ease-in duration-150'
                 onClick={closeMenu}>
                     {link.label}
                 </Link>

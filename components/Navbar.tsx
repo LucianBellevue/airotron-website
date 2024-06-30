@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import { NAV_LINKS } from '../constants'
-import Button from './button'
+import Button from './Button'
 import BurgerMenu from './BurgerMenu'
 
 
@@ -23,9 +23,10 @@ const Navbar = () => {
       <div className='lg:flexCenter hidden'>
         <Button
         type="button"
-        title="Get Quote"
-        icon="/circle-up-regular.svg"
-        variant="btn_dark_red" />
+        title="770-781-4328"
+        icon="/phone-solid.svg"
+        variant="btn_dark_red"
+        className="" />
       </div>
       <BurgerMenu />
     </nav>
