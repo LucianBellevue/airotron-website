@@ -1,8 +1,11 @@
+"use client";
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import { NAV_LINKS } from '../constants'
 import Button from './button'
+import BurgerMenu from './BurgerMenu'
+
 
 const Navbar = () => {
   return (
@@ -17,20 +20,14 @@ const Navbar = () => {
           </Link>
         ))}
       </ul>
-      <div className='lg:flexCenter Hidden'>
+      <div className='lg:flexCenter hidden'>
         <Button
         type="button"
         title="Get Quote"
-        icon=""
+        icon="/circle-up-regular.svg"
         variant="btn_dark_red" />
       </div>
-      <Image
-        src="/menu.svg"
-        alt="menu"
-        width={24}
-        height={24}
-        className='inline-block cursor-pointer lg:hidden'
-      />
+      <BurgerMenu />
     </nav>
   )
 }
