@@ -7,95 +7,95 @@ export function Hero() {
 }
 export const products = [
   {
-    title: "Moonbeam",
-    link: "https://gomoonbeam.com",
+    title: "",
+    // link: "",
     thumbnail:
-      "",
+      "/airotron-3.png",
   },
   {
-    title: "Cursor",
-    link: "https://cursor.so",
+    title: "",
+    // link: "",
     thumbnail:
-      "",
+      "/airotron-2.png",
   },
   {
-    title: "Rogue",
-    link: "https://userogue.com",
+    title: "",
+    // link: "",
     thumbnail:
-      "",
+      "/airotron-1.png",
   },
 
   {
-    title: "Editorially",
-    link: "https://editorially.org",
+    title: "",
+    // link: "",
     thumbnail:
       "",
   },
   {
     title: "Editrix AI",
-    link: "https://editrix.ai",
+    // link: "https://editrix.ai",
     thumbnail:
       "",
   },
   {
     title: "Pixel Perfect",
-    link: "https://app.pixelperfect.quest",
+    // link: "https://app.pixelperfect.quest",
     thumbnail:
       "",
   },
 
   {
     title: "Algochurn",
-    link: "https://algochurn.com",
+    // link: "https://algochurn.com",
     thumbnail:
       "",
   },
   {
     title: "Aceternity UI",
-    link: "https://ui.aceternity.com",
+    // link: "https://ui.aceternity.com",
     thumbnail:
       "",
   },
   {
     title: "Tailwind Master Kit",
-    link: "https://tailwindmasterkit.com",
+    // link: "https://tailwindmasterkit.com",
     thumbnail:
       "",
   },
   {
     title: "SmartBridge",
-    link: "https://smartbridgetech.com",
+    // link: "https://smartbridgetech.com",
     thumbnail:
       "",
   },
   {
     title: "Renderwork Studio",
-    link: "https://renderwork.studio",
+    // link: "https://renderwork.studio",
     thumbnail:
       "",
   },
 
   {
     title: "Creme Digital",
-    link: "https://cremedigital.com",
+    // link: "https://cremedigital.com",
     thumbnail:
       "",
   },
   {
     title: "Golden Bells Academy",
-    link: "https://goldenbellsacademy.com",
+    // link: "https://goldenbellsacademy.com",
     thumbnail:
       "",
   },
   {
     title: "Invoker Labs",
-    link: "https://invoker.lol",
+    // link: "https://invoker.lol",
     thumbnail:
       "",
   },
   {
     title: "E Free Invoice",
-    link: "https://efreeinvoice.com",
+    // link: "https://efreeinvoice.com",
     thumbnail:
       "",
   },

@@ -9,7 +9,7 @@ import BurgerMenu from './BurgerMenu'
 
 const Navbar = () => {
   return (
-    <nav className='flexBetween max-container padding-container relative z-30 py-5'>
+    <nav className='flexBetween max-container padding-container relative z-30 py-5 bg-opacity-55'>
       <Link href="/">
       <Image src="/logo.png" alt="logo" width={232} height={62} className='lg:w-auto w-32 flex justify-center'/>
       </Link>
