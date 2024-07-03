@@ -61,7 +61,7 @@ const About: React.FC = () => {
         </div>
       </div>
       <div className='mt-16'>
-        <h3 className='text-3xl font-bold text-gray-90 mb-6 text-center'> Our <span className='text-red-90'>Trusted</span> Partners</h3>
+        <h3 className='text-3xl font-bold text-gray-90 mb-6 text-center'> Some of our <span className='text-red-90'>Trusted</span> Partners</h3>
           <LogoBanner />
       </div>
     </section>
