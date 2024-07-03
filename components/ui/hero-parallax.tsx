@@ -57,7 +57,7 @@ export const HeroParallax = ({
   return (
     <div
       ref={ref}
-      className="h-[300vh] py-20 overflow-hidden  antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
+      className="h-[275vh] py-20 overflow-hidden  antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
     >
       <Header />
       <motion.div
@@ -103,8 +103,8 @@ export const HeroParallax = ({
 
 export const Header = () => {
   return (
-    <div className="max-w-7xl relative mx-auto py-10 md:py-40 px-4 w-full  left-0 top-0">
-      <h1 className="text-2xl md:text-7xl font-bold text-gray-90">
+    <div className="max-w-7xl relative mx-auto py-10 md:py-20 px-4 w-full  left-0 top-0">
+      <h1 className="text-3xl md:text-7xl font-bold text-gray-90">
         Your Trusted <br /> <span className="text-red-90">HVAC</span> Partner Since 1979
       </h1>
       <p className="max-w-2xl text-base md:text-xl mt-8 text-gray-50">
@@ -138,7 +138,7 @@ export const ProductCard = ({
     >
       {/* optional include link tag here for div and include href to product.link */}
       <div
-        className="block group-hover/product:shadow-xl "
+        className="block group-hover/product:shadow-3xl "
       >
         <Image
           src={product.thumbnail}
@@ -148,7 +148,7 @@ export const ProductCard = ({
           alt={product.title}
         />
       </div>
-      <div className="absolute inset-0 h-full w-full opacity-0 group-hover/product:opacity-20 bg-black pointer-events-none"></div>
+      <div className="absolute inset-0 h-full w-full opacity-0 group-hover/product:opacity-30 bg-black pointer-events-none"></div>
       <h2 className="absolute bottom-4 left-4 opacity-0 group-hover/product:opacity-100 text-white">
         {product.title}
       </h2>

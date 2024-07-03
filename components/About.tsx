@@ -1,5 +1,7 @@
+"use client";
 import Image from 'next/image';
 import { FaTools, FaHandshake, FaLeaf, FaAward } from 'react-icons/fa';
+import LogoBanner from './LogoBanner';
 
 interface Feature {
   icon: React.ElementType;
@@ -16,10 +18,10 @@ const About: React.FC = () => {
   ];
 
   return (
-    <section className="bg-white py-10">
+    <section id="about-us" className="bg-white py-10">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-2xl md:text-7xl font-bold text-gray-90">A bit about Airotron</h2>
+          <h2 className="text-3xl md:text-7xl font-bold text-gray-90">A bit about <span className='text-red-90'>Airotron</span></h2>
           <p className="text-xl text-gray-600">A family owned and operated HVAC company</p>
         </div>
 
@@ -34,9 +36,9 @@ const About: React.FC = () => {
             />
           </div>
           <div className="lg:w-1/2 lg:pl-16">
-            <h3 className="text-2xl font-semibold text-red-90 mb-6">Our Commitment to You</h3>
+            <h3 className="lg:text-3xl text-2xl font-semibold text-red-90 mb-6">Our Commitment to You</h3>
             <p className="text-gray-700 mb-6 leading-relaxed">
-              Since 1979, Cool Comfort HVAC has been the trusted name in heating, ventilation, and air conditioning
+              Since 1979, Airotron has been the trusted name in heating, ventilation, and air conditioning
               services in our community. With over four decades of experience, we've built our reputation on
               reliability, expertise, and a genuine commitment to our customers' comfort.
             </p>
@@ -57,6 +59,10 @@ const About: React.FC = () => {
             </div>
           ))}
         </div>
+      </div>
+      <div className='mt-16'>
+        <h3 className='text-3xl font-bold text-gray-90 mb-6 text-center'> Our <span className='text-red-90'>Trusted</span> Partners</h3>
+          <LogoBanner />
       </div>
     </section>
   );

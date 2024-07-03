@@ -29,74 +29,74 @@ export const products = [
     title: "",
     // link: "",
     thumbnail:
-      "",
+      "/airotron-4.png",
   },
   {
-    title: "Editrix AI",
-    // link: "https://editrix.ai",
+    title: "",
+    // link: "",
     thumbnail:
-      "",
+      "/airotron-5.png",
   },
   {
-    title: "Pixel Perfect",
-    // link: "https://app.pixelperfect.quest",
+    title: "",
+    // link: "",
     thumbnail:
-      "",
-  },
-
-  {
-    title: "Algochurn",
-    // link: "https://algochurn.com",
-    thumbnail:
-      "",
-  },
-  {
-    title: "Aceternity UI",
-    // link: "https://ui.aceternity.com",
-    thumbnail:
-      "",
-  },
-  {
-    title: "Tailwind Master Kit",
-    // link: "https://tailwindmasterkit.com",
-    thumbnail:
-      "",
-  },
-  {
-    title: "SmartBridge",
-    // link: "https://smartbridgetech.com",
-    thumbnail:
-      "",
-  },
-  {
-    title: "Renderwork Studio",
-    // link: "https://renderwork.studio",
-    thumbnail:
-      "",
+      "/airotron-3.png",
   },
 
   {
-    title: "Creme Digital",
-    // link: "https://cremedigital.com",
+    title: "",
+    // link: "",
     thumbnail:
-      "",
+      "/airotron-2.png",
   },
   {
-    title: "Golden Bells Academy",
-    // link: "https://goldenbellsacademy.com",
+    title: "",
+    // link: "",
     thumbnail:
-      "",
+      "/airotron-4.png",
   },
   {
-    title: "Invoker Labs",
-    // link: "https://invoker.lol",
+    title: "",
+    // link: "",
     thumbnail:
-      "",
+      "/airotron-5.png",
   },
   {
-    title: "E Free Invoice",
-    // link: "https://efreeinvoice.com",
+    title: "",
+    // link: "",
     thumbnail:
-      "",
+      "/airotron-3.png",
+  },
+  {
+    title: "",
+    // link: "",
+    thumbnail:
+      "/airotron-2.png",
+  },
+
+  {
+    title: "",
+    // link: "",
+    thumbnail:
+      "/airotron-1.png",
+  },
+  {
+    title: "",
+    // link: "",
+    thumbnail:
+      "/airotron-4.png",
+  },
+  {
+    title: "",
+    // link: "",
+    thumbnail:
+      "/airotron-5.png",
+  },
+  {
+    title: "",
+    // link: "",
+    thumbnail:
+      "/airotron-3.png",
   },
 ];
