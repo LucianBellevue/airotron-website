@@ -5,6 +5,6 @@ Website developed using Next.js
 Coming Soon!
 
 ## Author
--Lucian Bellevue <br>
--<a href="https://linkedin.com/in/lucianbellevue" target="_blank">LinkedIn</a>
--<a href="https://lucianbellevue.com" target="_blank">Portfolio</a>
+- Lucian Bellevue <br>
+- <a href="https://linkedin.com/in/lucianbellevue" target="_blank">LinkedIn</a><br>
+- <a href="https://lucianbellevue.com" target="_blank">Portfolio</a><br>
