@@ -1,5 +1,5 @@
 # This is a website for Airotron Inc
-Website developed using Next.js 
+Website developed using Next.js, TailwindCSS and Material UI
 
 ## Live Link
 Coming Soon!
