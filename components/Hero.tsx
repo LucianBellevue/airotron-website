@@ -41,32 +41,32 @@ export const products = [
     title: "",
     // link: "",
     thumbnail:
-      "/airotron-3.png",
+      "/airotron-6.png",
   },
 
   {
     title: "",
     // link: "",
     thumbnail:
-      "/airotron-2.png",
+      "/airotron-7.png",
   },
   {
     title: "",
     // link: "",
     thumbnail:
-      "/airotron-4.png",
+      "/airotron-8.png",
   },
   {
     title: "",
     // link: "",
     thumbnail:
-      "/airotron-5.png",
+      "/airotron-9.png",
   },
   {
     title: "",
     // link: "",
     thumbnail:
-      "/airotron-3.png",
+      "/airotron-10.png",
   },
   {
     title: "",
@@ -97,6 +97,6 @@ export const products = [
     title: "",
     // link: "",
     thumbnail:
-      "/airotron-3.png",
+      "/airotron-10.png",
   },
 ];

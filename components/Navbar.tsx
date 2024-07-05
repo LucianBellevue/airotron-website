@@ -18,13 +18,13 @@ const Navbar = () => {
           <a href="/">Home</a>
         </li>
         <li className='regular-16 font-semibold text-gray-50 flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold'>
-          <a href="#about-us">About</a>
+          <a href="/#about-us">About</a>
         </li>
         <li className='regular-16 font-semibold text-gray-50 flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold'>
-         <a href="#services">Services</a>
+         <a href="/#services">Services</a>
         </li>
         <li className='regular-16 font-semibold text-gray-50 flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold'>
-          <a href="#testimonials">Testimonials</a>
+          <a href="/#testimonials">Testimonials</a>
         </li>
         <li className='regular-16 font-semibold text-gray-50 flexCenter cursor-pointer pb-1.5 px-3 transition-all hover:font-bold'>
           <a href="/contact-us">Contact</a>
@@ -32,6 +32,7 @@ const Navbar = () => {
       </ul>
       <div className='lg:flexCenter hidden'>
         <Button
+        href="/contact-us"
         type="button"
         title="770-781-4328"
         icon="/phone-solid.svg"
