@@ -2,7 +2,7 @@
 Website developed using Next.js, TailwindCSS and Material UI
 
 ## Live Link
-Coming Soon!
+- <a href="https://airotron-website.vercel.app/" target="_blank">Here</a>
 
 ## Author
 - Lucian Bellevue <br>
